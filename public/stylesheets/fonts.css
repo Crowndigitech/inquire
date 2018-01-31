@@ -1,0 +1,24 @@
+/* import Caviar Dreams Font */
+@font-face {
+  font-family: "caviarDreams";
+  src: url("../fonts/caviarDreams/CaviarDreams.ttf");
+}
+
+@font-face {
+  font-family: "caviarDreams";
+  src: url("../fonts/caviarDreams/CaviarDreams_Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "caviarDreams";
+  src: url("../fonts/caviarDreams/CaviarDreams_Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "caviarDreams";
+  src: url("../fonts/caviarDreams/CaviarDreams_BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}

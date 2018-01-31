@@ -1,0 +1,91 @@
+/* © 2018 Dreams Rewired
+One page business template
+Free for commercial use
+No copyright */
+
+/* Arrow Animations */
+/* left arrow */
+@-webkit-keyframes moveLeftArrow {
+  0% {
+    left: 3rem;
+  }
+
+  50% {
+    left: 2.4rem;
+  }
+
+  100% {
+    left: 3rem;
+  }
+}
+
+@-moz-keyframes moveLeftArrow {
+  0% {
+    left: 3rem;
+  }
+
+  50% {
+    left: 2.4rem;
+  }
+
+  100% {
+    left: 3rem;
+  }
+}
+
+@keyframes moveLeftArrow {
+  0% {
+    left: 3rem;
+  }
+
+  50% {
+    left: 2.4rem;
+  }
+
+  100% {
+    left: 3rem;
+  }
+}
+
+/* right arrow */
+@-webkit-keyframes moveRightArrow {
+  0% {
+    right: 3rem;
+  }
+
+  50% {
+    right: 2.4rem;
+  }
+
+  100% {
+    right: 3rem;
+  }
+}
+
+@-moz-keyframes moveRightArrow {
+  0% {
+    right: 3rem;
+  }
+
+  50% {
+    right: 2.4rem;
+  }
+
+  100% {
+    right: 3rem;
+  }
+}
+
+@keyframes moveRightArrow {
+  0% {
+    right: 3rem;
+  }
+
+  50% {
+    right: 2.4rem;
+  }
+
+  100% {
+    right: 3rem;
+  }
+}

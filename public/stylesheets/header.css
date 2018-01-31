@@ -1,0 +1,117 @@
+/* © 2018 Dreams Rewired
+One page business template
+Free for commercial use
+No copyright */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: caviarDreams, sans-serif;
+}
+
+@-o-viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header {
+  width: 100%;
+  height: 6vmax;
+  background: linear-gradient(45deg, #1d2735, #0c1119);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10000000000;
+}
+
+#mainLogo {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  text-align: left;
+  transition: all .3s ease-in-out;
+}
+
+#mainLogo:hover {
+  opacity: .9;
+}
+
+#mainLogo img {
+  position: relative;
+  margin-left: 5rem;
+  margin-top: .6rem;
+  width: 8vmax;
+  height: auto;
+}
+
+.fa-bars {
+  position: absolute;
+  right: 2rem;
+  top: .7rem;
+  font-size: 3.5vmax;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+  display: none;
+  z-index: 100;
+}
+
+.fa-bars:hover {
+  color: #ddd;
+}
+
+nav {
+  display: flex;
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 30px;
+}
+
+nav ul li {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  padding: .5rem 1rem;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.2vmax;
+  font-family: caviarDreams;
+  transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+nav ul li:nth-child(6) a {
+  background: #fff;
+  font-weight: bold;
+  color: #0c1119;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  transition: all .3s ease;
+}
+
+nav ul li:nth-child(6) a:hover {
+  background-color: rgb(241, 241, 241);
+  border-color: rgb(241, 241, 241);
+}

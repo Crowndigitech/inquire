@@ -1,0 +1,16 @@
+/* © 2018 Dreams Rewired
+One page business template
+Free for commercial use
+No copyright */
+
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 3vw;
+    position: relative;
+    top: 50%;
+    font-weight: normal;
+    color: #121f35;
+}
